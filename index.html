@@ -1,17 +1,58 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8" />
-  <title>ROZINKO</title>
-  <!--[if IE]>
-   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <style>
-   article, aside, details, figcaption, figure, footer,header,
-   hgroup, menu, nav, section { display: block; }
-  </style>
- </head>
- <body>
-  <p>Привет, мир</p>
- </body>
-</html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rozinko Roman</title>
+  <meta name="theme-color" content="#712cf9">
+  <link href="/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="d-flex h-100 text-center text-bg-dark">
+    
+  <div class="d-flex w-75 h-100 p-3 mx-auto flex-column">
+    <header class="">
+      <div>
+        <nav class="nav nav-masthead justify-content-start float-md-start">
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="/">Home Page</a>
+        </nav>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0" href="/duck-tracker/">Duck Tracker</a>
+            <a class="nav-link fw-bold py-1 px-0" href="https://github.com/rozinko" target="_blank">My Github</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="w-100 h-100 py-5">
+
+      <h2 class="pb-5">My apps</h2>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/duck-tracker/logo.png" class="img-fluid rounded-start" alt="Duck Tracker logo">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Duck Tracker</h5>
+                  <p class="card-text">GPS tracker for recording your running, hiking and other travels. Record tracks and save it in the device history. Keep a complete history of your tracks with route and statistics details.</p>
+                  <p class="card-text"><small class="text-body-secondary"><a href="/duck-tracker/">Learn more</a></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer class="text-white-50">
+      <p>Rozinko Roman &copy; 2023</p>
+    </footer>
+  </div>
+
+</body></html>
