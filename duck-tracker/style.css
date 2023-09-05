@@ -17,8 +17,8 @@
  */
 
 body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 
 .cover-container {
@@ -50,7 +50,8 @@ body {
 }
 
 .promo-title h1 {
-  font-weight: 10rem !important;
+  font-size: 4.5rem !important;
+  font-weight: bold;
 }
 
 .promo-text {
